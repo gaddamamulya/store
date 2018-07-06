@@ -1,0 +1,2 @@
+module TripAdvisorHelper
+end
