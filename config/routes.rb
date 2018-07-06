@@ -1,6 +1,6 @@
 Store::Application.routes.draw do
   resources :products
-   get "/product/new"
+  get 'get_reviews', to: 'TripAdvisor#get_reviews'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
