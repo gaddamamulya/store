@@ -4,7 +4,7 @@ class Product
   field :price, type: BigDecimal
 
   attr_accessible :name, :price
-  validates :name, presence: true
-  validates :price, presence: true 
+  # validates :name, presence: true
+  # validates :price, presence: true 
   embeds_many :reviews
 end
